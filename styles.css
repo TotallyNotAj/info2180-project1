@@ -8,16 +8,28 @@ body {
     padding: 0;
 }
 
+header .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 30px;
+}
+
 header {
     background-color: white;
     font-size: 18px;
-    padding: 10px 0;
+}
+
+header h1{
+    font-size: 18px;
 }
 
 header ul li{
     display: inline-block;
     margin:15px;
     list-style-type: none;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 header a{
@@ -36,9 +48,13 @@ main .overview-hero{
 
 main .overview-hero .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
+}
+
+main .overview-hero p {
+    margin-right: 100px;
 }
 
 main .overview-hero img {
