@@ -89,6 +89,13 @@ main .testing{
     margin-top: 25px;
 }
 
+main .testing .container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
 main .testing a{
     color: white;
     text-decoration: none;
@@ -102,7 +109,9 @@ main .cta {
     background-color: #48BB78;
     border-radius: 5px;
     list-style-type: none;
-    
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
 }
 
 main .stories h2{
