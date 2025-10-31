@@ -8,6 +8,40 @@ body {
     padding: 0;
 }
 
+header {
+    background-color: white;
+    font-size: 18px;
+}
+
+header ul li{
+    display: inline-block;
+    margin:15px;
+    list-style-type: none;
+}
+
+header a{
+    color: #6b7280;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #5A67D8;
+}
+
+main .overview-hero{
+    background-color: #E2E8F0;
+}
+
+main .learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+main .learn-about h3{
+    font-size: 21px;
+    color: #48BB78;
+}
+
 .container {
     margin: 0 auto;
     max-width: 960px;
