@@ -43,7 +43,6 @@ main .overview-hero .container {
 
 main .overview-hero img {
     margin-top: 15px;
-    margin-top: 15px;
     width: 100%;
     max-width: 300px;
 }
@@ -56,6 +55,8 @@ main .learn-about h2{
 main .learn-about h3{
     font-size: 21px;
     color: #48BB78;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .cards{
@@ -84,6 +85,8 @@ main .learn-about h3{
 main .testing{
     background-color: #4A5568;
     color: white;
+    padding: 60px;
+    margin-top: 25px;
 }
 
 main .testing a{
