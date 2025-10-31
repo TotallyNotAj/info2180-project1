@@ -114,8 +114,17 @@ main .cta {
     text-align: center;
 }
 
+main .stories{
+    padding: 30px;
+}
+
 main .stories h2{
     color: #5A67D8;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+main .stories h3{
     font-size: 18px;
 }
 
@@ -128,6 +137,9 @@ main .stories a{
 
 main .stories img{
     border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
 }
 
 main .newsletter{
