@@ -121,11 +121,11 @@ main .stories{
 main .stories h2{
     color: #5A67D8;
     font-size: 24px;
-    margin-bottom: 15px;
 }
 
 main .stories h3{
     font-size: 18px;
+    margin-top: 2px;
 }
 
 main .stories a{
@@ -137,9 +137,17 @@ main .stories a{
 
 main .stories img{
     border-radius: 50%;
-    width: 175px;
-    height: 175px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
+}
+
+main .stories article {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: start;
+    gap: 15px;
+    margin-bottom: 25px;
 }
 
 main .newsletter{
