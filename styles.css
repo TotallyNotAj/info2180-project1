@@ -169,10 +169,39 @@ main .stories article {
 main .newsletter{
     background-color: #48BB78;
     color: white;
+    text-align: center;
+    height:250px;
+}
+
+main .newsletter h3{
+    padding-top: 50px;
+}
+
+main .newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+main .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    font-size: 18px;
+    padding: 20px 30px;
 }
 
 main .newsletter button{
     background-color: #5A67D8;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+    cursor: pointer;
 }
 
 
