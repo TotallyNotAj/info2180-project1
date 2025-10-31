@@ -11,6 +11,7 @@ body {
 header {
     background-color: white;
     font-size: 18px;
+    padding: 10px 0;
 }
 
 header ul li{
@@ -30,6 +31,21 @@ header a:hover {
 
 main .overview-hero{
     background-color: #E2E8F0;
+    height:230px;
+}
+
+main .overview-hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+main .overview-hero img {
+    margin-top: 15px;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 300px;
 }
 
 main .learn-about h2{
