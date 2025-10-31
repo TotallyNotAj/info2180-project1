@@ -42,8 +42,60 @@ main .learn-about h3{
     color: #48BB78;
 }
 
+main .testing{
+    background-color: #4A5568;
+    color: white;
+}
+
+main .testing a{
+    color: white;
+    text-decoration: none;
+}
+
+main .testing a:hover {
+    color: #5A67D8;
+}
+
+main .cta {
+    background-color: #48BB78;
+    border-radius: 5px;
+    list-style-type: none;
+    
+}
+
+main .stories h2{
+    color: #5A67D8;
+    font-size: 18px;
+}
+
+main .stories a{
+    text-decoration: none;  
+    list-style-type: none;
+    color: #5A67D8;
+    font-size: 18px;
+}
+
+main .stories img{
+    border-radius: 50%;
+}
+
+main .newsletter{
+    background-color: #48BB78;
+    color: white;
+}
+
+main .newsletter button{
+    background-color: #5A67D8;
+}
+
+
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+footer{
+    background-color: #4A5568;
+    color:white;
 }
