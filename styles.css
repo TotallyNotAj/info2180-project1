@@ -42,6 +42,12 @@ main .learn-about h3{
     color: #48BB78;
 }
 
+.cards{
+    border-color:#E2E8F0;
+    border-radius: 5px;
+    box-shadow: grey;
+}
+
 main .testing{
     background-color: #4A5568;
     color: white;
