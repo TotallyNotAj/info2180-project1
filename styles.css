@@ -59,9 +59,26 @@ main .learn-about h3{
 }
 
 .cards{
-    border-color:#E2E8F0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card{
+    border: 1px solid #E2E8F0;
     border-radius: 5px;
-    box-shadow: grey;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.626);
+    text-align:left;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
 }
 
 main .testing{
